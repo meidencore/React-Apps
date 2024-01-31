@@ -1,6 +1,7 @@
 {
   "name": "react-apps",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,5 +9,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+
+  "workspaces": [
+    "projects/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meidencore/React-Apps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meidencore/React-Apps/issues"
+  },
+  "homepage": "https://github.com/meidencore/React-Apps#readme"
 }
